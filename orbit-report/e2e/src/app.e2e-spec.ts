@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('Welcome to orbit-report!');
+    expect(page.getTitleText()).toEqual('orbit-report app is running!');
   });
 
   afterEach(async () => {
